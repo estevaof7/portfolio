@@ -1,0 +1,10 @@
+.project .img-container a img:hover {
+    transform: scale(1.08);
+    transition: all 200ms ease-in-out;
+    border: solid 0.2rem #FFFFFF;
+}
+.project .img-container a img:active {
+    opacity: 0.7;
+}
+
+nav a:active {color: #666666;}
