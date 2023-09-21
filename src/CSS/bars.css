@@ -1,37 +1,32 @@
-#pro-4 .html-bar {width: 62%;}
-#pro-4 .css-bar {
-    width: 37%;
-    right: 0;
-}
-#pro-4 .project-tech div:nth-child(2) {left: 62.5%;}
+#pro-4 {
+    .html-bar {width: 62%;}
+    .css-bar {width: 37%; right: 0;}
 
-#pro-3 .css-bar {width: 42.5%;}
-#pro-3 .js-bar {
-    width: 41.7%;
-    left: 43.5%;
+    .project-tech div:nth-child(2) {left: 62.5%;}
 }
-#pro-3 .html-bar {
-    width: 13.8%;
-    right: 0;
-}
-#pro-3 .project-tech div:nth-child(2) {left: 43.5%;}
-#pro-3 .project-tech div:nth-child(3) {left: 84.2%;}
 
-#pro-2 .js-bar {width: 63.2%;}
-#pro-2 .html-bar {
-    width: 20.5%;
-    left: 64.3%;
-}
-#pro-2 .css-bar {
-    width: 14.3%;
-    right: 0;
-}
-#pro-2 .project-tech div:nth-child(2) {left: 63.2%;}
-#pro-2 .project-tech div:nth-child(3) {left: 84.7%;}
+#pro-3 {
+    .css-bar {width: 42.5%;}
+    .js-bar {width: 41.7%; left: 43.5%;}
+    .html-bar {width: 13.8%; right: 0;}
 
-#pro-1 .css-bar {width: 63%;}
-#pro-1 .html-bar {
-    width: 36%;
-    right: 0;
+    .project-tech div:nth-child(2) {left: 43.5%;}
+    .project-tech div:nth-child(3) {left: 84.2%;}
 }
-#pro-1 .project-tech div:nth-child(2) {left: 63%;}
+
+
+#pro-2 { 
+    .js-bar {width: 63.2%;}
+    .html-bar {width: 20.5%; left: 64.3%;}
+    .css-bar {width: 14.3%; right: 0;}
+
+    .project-tech div:nth-child(2) {left: 63.2%;}
+    .project-tech div:nth-child(3) {left: 84.7%;}
+}
+
+#pro-1 {
+    .css-bar {width: 63%;}
+    .html-bar {width: 36%; right: 0;}
+
+    .project-tech div:nth-child(2) {left: 63%;}
+}
