@@ -23,11 +23,7 @@
 }
 
 #pg-2 {
-    background: linear-gradient(
-        rgb(40, 40, 40),
-        rgb(30, 30, 30),
-        rgb(20, 20, 20)
-    );
+    background: rgb(20, 20, 20);
     min-height: 100vh;
 }
 
@@ -127,6 +123,14 @@
                 height: 3rem;
                 margin-right: 0.2rem;
             }
+            .mysql-logo {
+                width: 6rem;
+                height: 6rem;
+            }
+            .java-logo {
+                width: 3.5rem;
+                height: 3.5rem;
+            }
             & p {
                 font-size: 1.5rem;
                 margin: 0;
@@ -148,6 +152,8 @@
             .html-bar {background-color: var(--html-color);}
             .css-bar {background-color: var(--css-color);}
             .js-bar {background-color: var(--js-color);}
+            .java-bar {background-color: var(--java-color);}
+            .mysql-bar {background-color: var(--mysql-color);}
 
         }
     }

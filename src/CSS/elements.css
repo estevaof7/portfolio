@@ -6,6 +6,8 @@
     --html-color: #E64C18;
     --css-color: #2465F1;
     --js-color: #F0DC4E;
+    --java-color: #EC2025;
+    --mysql-color: #F29209;
 }
 html {
     font-size: 62.5%;

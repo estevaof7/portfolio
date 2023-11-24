@@ -1,3 +1,10 @@
+#pro-5 {
+    .java-bar {width: 94%;};
+    .mysql-bar {width: 5%; right: 0;}
+
+    .project-tech div:nth-child(2) {right: 0;}
+}
+
 #pro-4 {
     .html-bar {width: 62%;}
     .css-bar {width: 37%; right: 0;}
